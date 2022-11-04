@@ -12,7 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class SiteUser {
+public class SiteUser { //MemberEntity 파일
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
